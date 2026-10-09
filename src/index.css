@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@keyframes bleepYellow {
+  0% { box-shadow: 0 0 0 0 rgba(250, 204, 21, 0.8); border-color: #facc15; }
+  70% { box-shadow: 0 0 0 15px rgba(250, 204, 21, 0); border-color: #eab308; }
+  100% { box-shadow: 0 0 0 0 rgba(250, 204, 21, 0); border-color: #facc15; }
+}
+
+.bleeping-yellow-btn {
+  animation: bleepYellow 1.5s infinite;
+  background-color: #facc15 !important;
+  color: #0f172a !important;
+  font-weight: 800 !important;
+}
+
+@keyframes pulseRed {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.05); opacity: 0.85; }
+}
+
+.penalty-pulse {
+  animation: pulseRed 0.6s ease-in-out;
+}
