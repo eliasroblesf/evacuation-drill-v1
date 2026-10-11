@@ -1,6 +1,8 @@
 {
-  "name": "KSIA Evacuation & Room Sweeping Drill",
+  "name": "evacuation-drill-v1",
   "description": "Mobile-first gamified office evacuation and room sweeping drill for King Salman International Airport (KSIA) Administration Complex with bilingual EN/AR support and official audit PDF export.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
